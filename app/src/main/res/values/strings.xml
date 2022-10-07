@@ -15,7 +15,7 @@
 -->
 <!-- mengatur isi tulisan pada layout yang akan ditampilkan -->
 <resources>
-    <string name="app_name">Words</string>
+    <string name="app_name">Wiki Fruit</string>
     <string name="detail_prefix">Fruit That Start With</string>
     <string name="action_switch_layout">Switch Layout</string>
     <string name="look_up_word">Look up word in a Browser Search</string>
