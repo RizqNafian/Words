@@ -15,29 +15,16 @@
      limitations under the License.
 -->
 <resources>
+    <!--  Mengatur nilai yang akan di tampilkan di isi fragment -->
     <string-array name="words">
-        <item>aargh</item>
-        <item>about</item>
-        <item>acidic</item>
-        <item>acne</item>
-        <item>acrid</item>
-        <item>acute</item>
-        <item>alphabet</item>
-        <item>anchor</item>
-        <item>anecdote</item>
-        <item>animal</item>
-        <item>automobile</item>
-        <item>awesome</item>
-        <item>back</item>
-        <item>balloon</item>
-        <item>basket</item>
-        <item>bench</item>
-        <item>best</item>
-        <item>birthday</item>
-        <item>books</item>
-        <item>brief</item>
-        <item>business</item>
-        <item>buy</item>
+        <item>Apples</item>
+        <item>Apricots</item>
+        <item>Avocados</item>
+        <item>Banana</item>
+        <item>Boysenberries</item>
+        <item>blackberries</item>
+        <item>Blueberries</item>
+        <item>bing cherry</item>
         <item>camera</item>
         <item>catapult</item>
         <item>center</item>

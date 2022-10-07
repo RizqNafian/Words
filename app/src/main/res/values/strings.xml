@@ -13,13 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<!-- mengatur isi tulisan pada layout yang akan ditampilkan -->
 <resources>
     <string name="app_name">Words</string>
-    <string name="detail_prefix">Words That Start With</string>
+    <string name="detail_prefix">Fruit That Start With</string>
     <string name="action_switch_layout">Switch Layout</string>
     <string name="look_up_word">Look up word in a Browser Search</string>
     <string name="look_up_words">Show Stored Words</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="word_list_fragment_label">Words That Start With {letter}</string>
+    <string name="word_list_fragment_label">Fruits That Start With {letter}</string>
 </resources>

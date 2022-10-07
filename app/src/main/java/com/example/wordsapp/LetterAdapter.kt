@@ -33,7 +33,7 @@ class LetterAdapter :
     RecyclerView.Adapter<LetterAdapter.LetterViewHolder>() {
 
     // Generates a [CharRange] from 'A' to 'Z' and converts it to a list
-    private val list = ('1').rangeTo('a').toList()
+    private val list = ('A').rangeTo('Z').toList()
 
     /**
      * Provides a reference for the views needed to display items in your list.
@@ -64,7 +64,9 @@ class LetterAdapter :
     override fun onBindViewHolder(holder: LetterViewHolder, position: Int) {
         val item = list.get(position)
         holder.button.text = item.toString()
+        // menambahkan OnClickListener untuk tombol viewholder
         holder.button.setOnClickListener {
+            // menghubungkan wordlist ke detaillist
             val action = LetterListFragmentDirections.actionLetterListFragmentToWordListFragment(letter = holder.button.text.toString())
             holder.view.findNavController().navigate(action)
         }

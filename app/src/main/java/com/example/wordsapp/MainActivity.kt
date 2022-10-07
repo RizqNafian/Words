@@ -39,11 +39,16 @@ class MainActivity : AppCompatActivity() {
 
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // mengabil fragmet navigasi host
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        // mengatur navController menggunkan navHostFragment
         navController = navHostFragment.navController
+        // mengarahkan actionbar ke navController
         setupActionBarWithNavController(navController)
     }
+    // mengatur tombol kembali
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp() || super.onSupportNavigateUp()
     }
